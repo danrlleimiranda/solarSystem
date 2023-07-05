@@ -24,5 +24,4 @@ export const MissionBox = styled.div`
     border-radius: 30px;
     opacity: 0.10000000149011612px;
     margin: auto;
-
 `;

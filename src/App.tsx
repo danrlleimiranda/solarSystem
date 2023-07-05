@@ -12,7 +12,6 @@ function App() {
     <main className="App">
       <Header />
       <div className="solar-system">
-
         <PlanetBox>
           <SolarSystem />
         </PlanetBox>
@@ -29,7 +28,6 @@ function App() {
           />
         ))}
       </MissionBox>
-
     </main>
   );
 }

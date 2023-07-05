@@ -1,6 +1,6 @@
 import Title from './Title';
 import planets from '../data/planets';
-import PlanetCard from './PlanetCard/PlanetCard';
+import PlanetCard from './PlanetCard';
 
 function SolarSystem() {
   return (
