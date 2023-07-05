@@ -1,8 +1,6 @@
 import React from 'react';
 import Header from './components/Header';
 import SolarSystem from './components/SolarSystem';
-import PlanetCard from './components/PlanetCard/PlanetCard';
-import Planets from './data/planets';
 import './App.css';
 import { PlanetBox, MissionBox } from './data/styled-components';
 import Missions from './components/Missions';
