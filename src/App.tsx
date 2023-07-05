@@ -19,17 +19,15 @@ function App() {
       </div>
       <Missions />
       <MissionBox>
-        { missions.map((mission) => {
-          return (
-            <MissionCard
-              key={ mission.name }
-              name={ mission.name }
-              year={ mission.year }
-              country={ mission.country }
-              destination={ mission.destination }
-            />
-          );
-        })}
+        { missions.map((mission) => (
+          <MissionCard
+            key={ mission.name }
+            name={ mission.name }
+            year={ mission.year }
+            country={ mission.country }
+            destination={ mission.destination }
+          />
+        ))}
       </MissionBox>
 
     </main>

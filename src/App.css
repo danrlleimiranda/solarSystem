@@ -1,59 +1,59 @@
 * {
-  margin: 0;
   box-sizing: border-box;
-  font-family: 'Epilogue', sans-serif;
+  font-family: Epilogue , sans-serif;
+  margin: 0;
 }
+
 h2 {
   font-size: 40px;
   font-weight: 300;
+  letter-spacing: 0;
   line-height: 60px;
-  letter-spacing: 0em;
   text-align: center;
 }
 
 body {
-  color: white;
   background-image: url('./images/background.png');
   background-size: cover;
+  color: white;
 }
 
 .App {
+  height: 100vh;
   text-align: center;
   width: 100vw;
-  height: 100vh;
 }
 
 h1 {
-font-size: 40px;
-font-weight: 300;
-line-height: 60px;
-letter-spacing: 0em;
-text-align: center;
-margin: 70px 0 200px;
-
+  font-size: 40px;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 60px;
+  margin: 70px 0 200px;
+  text-align: center;
 }
 
 .mission-box {
-  display: flex;
-  width: 496px;
-  height: 192px;
-  border-radius: 17px;
   border: 1px solid white;
+  border-radius: 17px;
+  display: flex;
+  height: 192px;
   margin: 20px;
   position: relative;
+  width: 496px;
 }
 
 .mission-box p:first-of-type {
   font-size: 30px;
-  position: absolute;
   left: 10px;
+  position: absolute;
   top: 20px;
 }
 
-.mission-box p:nth-last-of-type(2) {
-  position: absolute;
-  left: 10px;
+.mission-box p:nth-last-of-type( 2 ) {
   bottom: 20px;
+  left: 10px;
+  position: absolute;
 }
 
 .solar {
@@ -62,15 +62,13 @@ margin: 70px 0 200px;
 }
 
 .solar h2 {
+  font-family: Epilogue , sans-serif;
   margin-bottom: 60px;
-  font-family: 'Epilogue', sans-serif;
 }
 
 .planets {
+  align-items: baseline;
   display: flex;
   justify-content: center;
-  align-items: baseline;
   margin: auto;
 }
-
-

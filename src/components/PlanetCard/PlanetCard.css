@@ -1,48 +1,36 @@
-.Mercúrio img{
-    width: 41px;
-    
+.Mercúrio img {
+  width: 41px;
 }
 
-
-.Vênus img{
-    Width: 102px;
+.Vênus img {
+  width: 102px;
 }
-
 
 .Terra img {
-    Width: 106px;
+  width: 106px;
 }
-
-
 
 .Marte img {
-    width: 66px;
+  width: 66px;
 }
-
-
 
 .Júpiter img {
-   width: 272px;
+  width: 272px;
 }
-
-
 
 .Saturno img {
-   width: 282.41px;
+  width: 282.41px;
 }
 
-
-
 .Urano img {
-    width: 144px;
+  width: 144px;
 }
 
 
 .Netuno img {
-    width: 144px;
+  width: 144px;
 }
 
 div p {
-    text-align: center;
+  text-align: center;
 }
-
