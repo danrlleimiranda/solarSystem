@@ -1,4 +1,76 @@
-.App {
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Epilogue', sans-serif;
+}
+h2 {
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 60px;
+  letter-spacing: 0em;
   text-align: center;
 }
+
+body {
+  color: white;
+  background-image: url('./images/background.png');
+  background-size: cover;
+}
+
+.App {
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+h1 {
+font-size: 40px;
+font-weight: 300;
+line-height: 60px;
+letter-spacing: 0em;
+text-align: center;
+margin: 70px 0 200px;
+
+}
+
+.mission-box {
+  display: flex;
+  width: 496px;
+  height: 192px;
+  border-radius: 17px;
+  border: 1px solid white;
+  margin: 20px;
+  position: relative;
+}
+
+.mission-box p:first-of-type {
+  font-size: 30px;
+  position: absolute;
+  left: 10px;
+  top: 20px;
+}
+
+.mission-box p:nth-last-of-type(2) {
+  position: absolute;
+  left: 10px;
+  bottom: 20px;
+}
+
+.solar {
+  display: flex;
+  flex-direction: column;
+}
+
+.solar h2 {
+  margin-bottom: 60px;
+  font-family: 'Epilogue', sans-serif;
+}
+
+.planets {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  margin: auto;
+}
+
 
