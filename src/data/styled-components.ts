@@ -24,3 +24,9 @@ export const MissionBox = styled.div`
     opacity: 0.10000000149011612px;
     margin: auto;
 `;
+
+export const Planet = styled.div`
+transition: all 1s ease;
+&:hover
+transform: scale(1.2)
+`;

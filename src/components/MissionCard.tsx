@@ -1,6 +1,5 @@
 import { BsFillCalendar2EventFill } from 'react-icons/bs';
 import { FaMapMarkerAlt, FaFlag } from 'react-icons/fa';
-import { GoHorizontalRule } from 'react-icons/go';
 
 type MissionCardProp = {
   name: string;
@@ -25,6 +24,7 @@ function MissionCard({ name, year, country, destination }: MissionCardProp) {
         <span><FaFlag /></span>
         {destination}
       </p>
+      <hr />
     </div>
   );
 }

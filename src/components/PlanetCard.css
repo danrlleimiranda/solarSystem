@@ -2,33 +2,105 @@
   width: 41px;
 }
 
+.Mercúrio {
+  transition: all 1s ease;
+}
+
+.Mercúrio:hover {
+  transform: scale(1.5);
+  transition: all 1s ease;
+}
+
 .Vênus img {
   width: 102px;
+}
+
+.Vênus {
+  transition: all 1s ease;
+}
+
+.Vênus:hover {
+  transform: scale(1.5);
+  transition: all 1s ease;
 }
 
 .Terra img {
   width: 106px;
 }
 
+.Terra {
+  transition: all 1s ease;
+}
+
+.Terra:hover {
+  transform: scale(1.5);
+  transition: all 1s ease;
+}
+
 .Marte img {
   width: 66px;
+}
+
+.Marte {
+  transition: all 1s ease;
+}
+
+.Marte:hover {
+  transform: scale(1.5);
+  transition: all 1s ease;
 }
 
 .Júpiter img {
   width: 272px;
 }
 
+.Júpiter {
+  transition: all 1s ease;
+}
+
+.Júpiter:hover {
+  transform: scale(1.3);
+  transition: all 1s ease;
+}
+
 .Saturno img {
   width: 282.41px;
+}
+
+.Saturno {
+  transition: all 1s ease;
+}
+
+.Saturno:hover {
+  transform: scale(1.3);
+  transition: all 1s ease;
 }
 
 .Urano img {
   width: 144px;
 }
 
+.Urano {
+  transition: all 1s ease;
+}
+
+.Urano:hover {
+  transform: scale(1.5);
+  transition: all 1s ease;
+}
+
 
 .Netuno img {
   width: 144px;
+}
+
+.Netuno {
+  transition: all 1s ease;
+}
+
+.Netuno:hover {
+  transform: scale(1.5);
+  transition: all 1s ease;
 }
 
 div p {

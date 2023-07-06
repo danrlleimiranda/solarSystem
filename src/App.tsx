@@ -11,7 +11,6 @@ function App() {
       <Header />
       <div className="solar-system">
         <PlanetBox>
-          {/* <hr /> */}
           <SolarSystem />
         </PlanetBox>
       </div>
