@@ -1,9 +1,13 @@
 import React from 'react';
+import image from '../../../../../Downloads/logo-sistema-solar.svg';
 
 function Header() {
   return (
     <header>
-      <h1>Sistema Solar</h1>
+      <img src={ image } alt="" />
+      <h1>
+        SISTEMA SOLAR
+      </h1>
     </header>
   );
 }

@@ -5,7 +5,7 @@ import PlanetCard from './PlanetCard';
 function SolarSystem() {
   return (
     <div data-testid="solar-system" className="solar">
-      <Title headline="Planetas" />
+      <Title headline="PLANETAS" />
       <div className="planets">
         {planets.map((planet) => (
           <PlanetCard

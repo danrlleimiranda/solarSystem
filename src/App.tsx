@@ -2,10 +2,8 @@ import React from 'react';
 import Header from './components/Header';
 import SolarSystem from './components/SolarSystem';
 import './App.css';
-import { PlanetBox, MissionBox } from './data/styled-components';
+import { PlanetBox } from './data/styled-components';
 import Missions from './components/Missions';
-import missions from './data/missions';
-import MissionCard from './components/MissionCard';
 
 function App() {
   return (
@@ -13,21 +11,13 @@ function App() {
       <Header />
       <div className="solar-system">
         <PlanetBox>
+          {/* <hr /> */}
           <SolarSystem />
         </PlanetBox>
       </div>
-      <Missions />
-      <MissionBox>
-        { missions.map((mission) => (
-          <MissionCard
-            key={ mission.name }
-            name={ mission.name }
-            year={ mission.year }
-            country={ mission.country }
-            destination={ mission.destination }
-          />
-        ))}
-      </MissionBox>
+      <div className="boxed">
+        <Missions />
+      </div>
     </main>
   );
 }

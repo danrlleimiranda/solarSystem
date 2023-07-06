@@ -5,7 +5,6 @@ export const PlanetBox = styled.div`
     flex-direction: row;
     justify-content: center;
     margin: auto;
-    align-items: baseline;
     font-family: Epilogue;
     font-size: 16px;
     font-weight: 400;
